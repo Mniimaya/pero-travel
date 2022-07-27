@@ -1,0 +1,28 @@
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+
+  @include viewport--lg {
+    max-width: 1200px;
+  }
+}
+
+.header__button-menu {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+  @include viewport--lg {
+    display: none;
+  }
+}
+
+.header__button-menu span {
+  width: 40px;
+  height: 5px;
+  background-color: $color-white;
+  border-radius: 10px;
+  box-shadow: 0 10px 0 $color-white, 0 -10px 0 $color-white;
+  display: block;
+}

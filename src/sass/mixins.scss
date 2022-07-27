@@ -1,0 +1,16 @@
+@mixin input-hidden {
+  position: absolute;
+  appearance: none;
+}
+
+@mixin viewport--md {
+  @media (min-width: $md) {
+    @content;
+  }
+}
+
+@mixin viewport--lg {
+  @media (min-width: $lg) {
+    @content;
+  }
+}

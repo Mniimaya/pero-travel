@@ -1,0 +1,37 @@
+.navigation {
+  display: none;
+
+  @include viewport--lg {
+    display: block;
+  }
+}
+
+.navigation__list {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+
+  @include viewport--lg {
+    max-width: 303px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.navigation__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.navigation__link {
+  text-decoration: none;
+  color: $color-white;
+
+  &--current {
+    color: $color-yellow;
+  }
+}

@@ -1,0 +1,57 @@
+.intro {
+  background-image: url("../img/index/intro-background.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 25px;
+  padding-bottom: 160px;
+
+  @include viewport--md {
+    background-image: url("../img/index/intro-background-tablet.png");
+    background-size: cover;
+  }
+
+  @include viewport--lg {
+    background-image: url("../img/index/intro-background-tablet.png");
+  }
+}
+
+.intro__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro__wrapper {
+  margin-bottom: 40px;
+}
+
+.intro__slogan-image {
+  margin-bottom: 30px;
+
+  @include viewport--md {
+    width: 463px;
+    height: 243px;
+  }
+
+  @include viewport--lg {
+    width: 723px;
+    height: 194px;
+  }
+}
+
+.intro__button {
+  width: 230px;
+  height: 50px;
+}
+
+.intro__social-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-self: flex-end;
+}
+
+.intro__social-item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
