@@ -12,7 +12,7 @@ const sliderPreviewVideo = new Swiper(sliderCatalog, {
   },
   scrollbar: {
     el: '.preview__catalog-scrollbar',
-    draggable: true,
+    draggable: true
   },
 });
 
