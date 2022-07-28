@@ -5,7 +5,7 @@ const sliderPreviewVideo = new Swiper(sliderCatalog, {
   slideClass: "preview__catalog-slider-slide",
   wrapperClass: "preview__catalog-slider-wrapper",
   spaceBetween: 10,
-  slidesPerView: 1.2,
+  slidesPerView: 1.5,
   navigation: {
     nextEl: '.preview__catalog-slide-prev',
     prevEl: '.preview__catalog-slide-next',

@@ -1,0 +1,83 @@
+.about-tour {
+    padding-bottom: 150px;
+}
+
+.about-tour__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-tour__title{
+    align-self: flex-start;
+}
+
+.about-tour__list {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 60px;
+    list-style: none;
+}
+
+.about-tour__item {
+    padding-left: 90px;
+
+    &--bus {
+        background-image: url("../img/index/bus.png");
+        background-position: left top 20px;
+        background-repeat: no-repeat;
+        background-size: 75px 74px;
+
+    }
+
+    &--yacht {
+        background-image: url("../img/index/yacht.png");
+        background-position: left top 20px;
+        background-repeat: no-repeat;
+        background-size: 75px 74px;
+    }
+
+    &--jeep {
+        background-image: url("../img/index/jeep.png");
+        background-position: left top 20px;
+        background-repeat: no-repeat;
+        background-size: 75px 74px;
+    }
+
+    &--canyon {
+        background-image: url("../img/index/canyon.png");
+        background-position: left top 20px;
+        background-repeat: no-repeat;
+        background-size: 75px 74px;
+    }
+}
+
+.about-tour__title-item {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: $color-blue;
+}
+
+.about-tour__item-description {
+    max-width: 300px;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.about-tour__list-discription {
+    max-width: 380px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 16px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.about-tour__link-button {
+    width: 230px;
+    min-height: 50px;
+}

@@ -42,7 +42,7 @@
         <source media="(min-width: 768px)" srcset="img/index/slogan-tablet.png 1x, ./img/index/slogan-tablet@2x.png 2x">
         <img class="intro__slogan-image" src="img/index/slogan.png" width="323" height="186"alt="Путешествуй вместе с Перо Тревел.">
       </picture>
-      <button class="intro__button button">К экскурсиям
+      <a class="intro__link-button link-button">К экскурсиям
         <svg width="15" height="8" viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M14.3536 4.35355C14.5488 4.15829 14.5488 3.84171 14.3536 3.64645L11.1716 0.464466C10.9763 0.269204 10.6597 0.269204 10.4645 0.464466C10.2692 0.659728 10.2692 0.976311 10.4645 1.17157L13.2929 4L10.4645 6.82843C10.2692 7.02369 10.2692 7.34027 10.4645 7.53553C10.6597 7.7308 10.9763 7.7308 11.1716 7.53553L14.3536 4.35355ZM0 4.5H14V3.5H0V4.5Z"
@@ -144,7 +144,7 @@
             На вершине горы Большой Ахун есть смотровая башня, построенная в 1935-36 годах по проекту архитектора
             С. И. Воробьева...
           </p>
-          <button class="preview__excursion-button button">Подробнее</button>
+          <a class="preview__excursion-link link-button">Подробнее</a>
         </div>
 
         <div class="preview__catalog-slider-slide catalog-slide catalog-slide--2">
@@ -178,7 +178,7 @@
              горы и лес. На всем пути следования экскурсии вас будут сопровождать опытные инструктора.
              Катание на лошадях или иппотерапия очень полезна для детей и взрослых...
           </p>
-          <button class="preview__excursion-button button">Подробнее</button>
+          <a class="preview__excursion-link link-button">Подробнее</a>
         </div>
 
         <div class="preview__catalog-slider-slide catalog-slide catalog-slide--3">
@@ -212,7 +212,7 @@
              самшитовый лес к водопаду Глубокий Яр или "Пасть Дракона" (экскурсионное название).
              Высота во допада 41,5 метр - это один из самых высоких водопадов Большого Сочи...
           </p>
-          <button class="preview__excursion-button button">Подробнее</button>
+          <a class="preview__excursion-link link-button">Подробнее</a>
         </div>
 
         <div class="preview__catalog-slider-slide catalog-slide catalog-slide--4">
@@ -246,19 +246,19 @@
             в котором гармонично сочетаются красота природы и красота архитектуры сотворенная руками человека.
           Это удивительное место расположено совсем недалеко от Чёрного моря - всего в 20 километрах
           </p>
-          <button class="preview__excursion-button button">Подробнее</button>
+          <a class="preview__excursion-link link-button">Подробнее</a>
         </div>
       </div>
 
       <div class="preview__catalog-slider-button-wrapper">
         <div class="preview__catalog-slide-next">
           <svg class="preview__icon-next" width="25" height="45" viewBox="0 0 25 45" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M24 0.999999L2.49433 20.2655C1.16332 21.4579 1.16333 23.5421 2.49433 24.7345L24 44" stroke="#D4D4D4" stroke-width="2"/>
+          <path d="M24 0.999999L2.49433 20.2655C1.16332 21.4579 1.16333 23.5421 2.49433 24.7345L24 44" stroke="currentColor" stroke-width="2"/>
           </svg>
         </div>
         <div class="preview__catalog-slide-prev">
           <svg class="preview__icon-prev" width="25" height="45" viewBox="0 0 25 45" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M24 0.999999L2.49433 20.2655C1.16332 21.4579 1.16333 23.5421 2.49433 24.7345L24 44" stroke="#D4D4D4" stroke-width="2"/>
+          <path d="M24 0.999999L2.49433 20.2655C1.16332 21.4579 1.16333 23.5421 2.49433 24.7345L24 44" stroke="currentColor" stroke-width="2"/>
           </svg>
         </div>
 
@@ -266,6 +266,101 @@
       </div>
     </div>
   </section>
+
+  <section class="about">
+
+    <div class="about__wrapper">
+      <div class="about__block">
+        <h2 class="about__title title-h2">О нас</h2>
+        <p class="about__description">
+          PeroTravel - Первый онлайн-сервис по бронированию экскурсий без очередей и операторов.<br>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        </p>
+        <p class="about__sub-description">Sed ut perspiciatis unde omnis iste natus error
+           sit voluptatem accusantium doloremque laudantium,totam rem aperiam,
+           eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae 
+          vitae dicta sunt explicabo.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-tour">
+
+    <div class="about-tour__wrapper container">
+
+      <h2 class="about-tour__title title-h2">Виды экскурсий</h2>
+
+      <ul class="about-tour__list">
+
+        <li class="about-tour__item about-tour__item--bus">
+          <h3 class="about-tour__title-item">Автобусный тур</h3>
+          <p class="about-tour__item-description">
+            Один из самых насыщенных впечатлениями, доступных по цене и популярных видов отдыха. 
+            Во время одной поездки можно посмотреть достопримечательности сразу нескольких городов, 
+            причем обойдется это едва ли не в разы дешевле классического экскурсионного тура с ночевками в отелях.</p>
+        </li>
+
+        <li class="about-tour__item about-tour__item--yacht">
+          <h3 class="about-tour__title-item">Яхтинг</h3>
+          <p class="about-tour__item-description">
+            Это то же, что круиз на лайнере или прогулка на пароме, 
+            только на яхте больше свободы, размеры судна в разы меньше, нет назойливой команды, можно самостоятельно почувствовать себя капитаном, 
+            постоять за штурвалом.Именно здесь вы почувствуете величайшие просторы Черногор моря.</p>
+        </li>
+
+        <li class="about-tour__item about-tour__item--jeep">
+          <h3 class="about-tour__title-item">Джиппинг</h3>
+          <p class="about-tour__item-description">
+            Это путешествие на автомобилях высокой проходимости с преодолением естественных препятствий, 
+            это экстремальный вид спорта и отдыха, 
+            представляющий собой прохождение туристического маршрута по бездорожью на автомобилях.</p>
+        </li>
+
+        <li class="about-tour__item about-tour__item--canyon">
+          <h3 class="about-tour__title-item">Каньонинг</h3>
+          <p class="about-tour__item-description">
+            Это экстремально-спортивный вид отдыха, который заключается в преодолении каньонов 
+            (обводненных или нет) при помощи альпинистского и иного снаряжения, 
+            а иногда и вброд, но без лодок или иных плавсредств.</p>
+        </li>
+      </ul>
+
+      <p class="about-tour__list-discription">Выбирайте на нашем сайте экскурсию, которая подходит именно вам и записывайтесь онлайн без очередей, просто и быстро!</p>
+      <a class="about-tour__link-button link-button" href="#" >
+        К экскурсиям
+        <svg width="15" height="8" viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M14.3536 4.35355C14.5488 4.15829 14.5488 3.84171 14.3536 3.64645L11.1716 0.464466C10.9763 0.269204 10.6597 0.269204 10.4645 0.464466C10.2692 0.659728 10.2692 0.976311 10.4645 1.17157L13.2929 4L10.4645 6.82843C10.2692 7.02369 10.2692 7.34027 10.4645 7.53553C10.6597 7.7308 10.9763 7.7308 11.1716 7.53553L14.3536 4.35355ZM0 4.5H14V3.5H0V4.5Z"
+            fill="white" />
+        </svg>
+      </a>
+    </div>
+  </section>
+
+  <section class="gallery">
+    <div class="gallery__container container">
+     <h2 class="gallery__title title-h2">Галлерея</h2>
+      <a class="gallery__link-more link-more" href="#">Смотреть все</a>
+
+      <ul class="gallery__list">
+        <li class="gallery__item-1">
+          <img src="img/index/gallery-1.jpg" alt="" class="gallery__pictures">
+        </li>
+        <li class="gallery__item-2">
+          <img src="img/index/gallery-2.jpg" alt="" class="gallery__pictures">
+        </li>
+        <li class="gallery__item-3">
+          <img src="img/index/gallery-3.jpg" alt="" class="gallery__pictures">
+        </li>
+        <li class="gallery__item-4">
+          <img src="img/index/gallery-4.jpg" alt="" class="gallery__pictures">
+        </li>
+      </ul>
+
+    </div>
+  </section>
+
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script src="./js/script.js" type="module"></script>
