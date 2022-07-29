@@ -1,0 +1,1 @@
+const sliderReviewsElement=document.querySelector(".reviews__slider-container"),sliderReviews=new Swiper(sliderReviewsElement,{slideClass:"reviews__slide",wrapperClass:"reviews__slider-wrapper",spaceBetween:10,slidesPerView:1.5,navigation:{nextEl:".reviews__slide-prev",prevEl:".reviews__slide-next"},scrollbar:{el:".reviews__scrollbar",draggable:!0}});export default sliderReviews;

@@ -1,1 +1,1 @@
-import sliderPreviewVideo from"./slider-preview-video.js";import sliderCatalog from"./slider-catalog.js";
+import sliderPreviewVideo from"./slider-preview-video.js";import sliderCatalog from"./slider-catalog.js";import sliderReviews from"./slider-reviews.js";
